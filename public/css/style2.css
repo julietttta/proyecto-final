@@ -1,0 +1,80 @@
+/*estilos comunes*/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+padding: 0;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 16px;
+background-color:black
+
+}
+
+img{
+    background-color:white
+}
+.navbar{
+    background-color: rgb(247, 173, 240) !important;
+position: sticky;
+top: 0;
+z-index: 1;
+}
+
+.navbar-nav a:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+/* estilos carrusel */
+
+#carrouselExample img  {
+width: 80%;
+height:65vh;
+}
+
+#xarouselExample{
+    margin-top: 1%;
+}
+@media (max-width:800px)
+{
+    #carouselExample img{
+        height: 30;
+    }
+}
+/*estilo cartas*/
+
+main {
+    padding: 20px;
+}
+.card{
+    width: 80%;
+    margin: auto;
+    border:white solid 3px;
+    background-color:rgb(247, 173, 240);
+    text-align: center;
+}
+.cadr-img-top
+{
+    max-width: 50%;
+    height: 60%;
+    margin: 10px auto;
+}
+/*estilo footer*/
+footer{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(247, 173, 240);
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
